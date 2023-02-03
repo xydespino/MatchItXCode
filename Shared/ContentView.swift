@@ -8,9 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    //    var i: Int
+    //    var s: String
+    //    var counter: Int
+    //    counter = 100;
+    
     var body: some View {
-        Text("Hello, Xyd!")
-            .padding()
+        return ZStack(content: {
+            RoundedRectangle(cornerRadius: 25)
+                .stroke(lineWidth: 5)
+                .foregroundColor(.gray)
+                .padding(.horizontal)
+            Text("Hello, Xyd!")
+                .padding()
+                .foregroundColor(Color.orange)
+            
+        })
+        
+
+
+            
+        
+        
+        
+    
+
+    
+    
+        
     }
 }
 
