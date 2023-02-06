@@ -46,8 +46,9 @@ struct ContentView: View {
             }
         }, label : {
             VStack{
-                Text("Remove")
-                Text("Card")
+//                Text("Remove")
+//                Text("Card")
+                Image(systemName: "minus")
             }
         })
     }
@@ -63,8 +64,9 @@ struct ContentView: View {
             
             VStack{
                 
-                Text("Add")
-                Text("Card")
+//                Text("Add")
+//                Text("Card")
+                Image(systemName: "plus")
             }
         })
     }
