@@ -110,7 +110,7 @@ struct LikeButton: View {
         }.onTapGesture {
             isLiked = !isLiked
         }
-        .foregroundColor(.red)
+        .foregroundColor(.pink)
     }
 }
 
