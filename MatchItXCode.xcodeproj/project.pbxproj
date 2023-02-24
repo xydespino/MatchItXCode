@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		183BEF5A29A8480900475996 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183BEF5929A8480900475996 /* MemoryGame.swift */; };
 		187905B22891CA0C0061F866 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187905B12891CA0C0061F866 /* Tests_iOS.swift */; };
 		187905B42891CA0C0061F866 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187905B32891CA0C0061F866 /* Tests_iOSLaunchTests.swift */; };
 		187905BE2891CA0C0061F866 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187905BD2891CA0C0061F866 /* Tests_macOS.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183BEF5929A8480900475996 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
 		187905992891CA070061F866 /* MatchItXCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchItXCodeApp.swift; sourceTree = "<group>"; };
 		1879059A2891CA070061F866 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1879059B2891CA0C0061F866 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		187905982891CA070061F866 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				183BEF5929A8480900475996 /* MemoryGame.swift */,
 				187905992891CA070061F866 /* MatchItXCodeApp.swift */,
 				1879059A2891CA070061F866 /* ContentView.swift */,
 				1879059B2891CA0C0061F866 /* Assets.xcassets */,
@@ -299,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183BEF5A29A8480900475996 /* MemoryGame.swift in Sources */,
 				187905C32891CA0C0061F866 /* ContentView.swift in Sources */,
 				187905C12891CA0C0061F866 /* MatchItXCodeApp.swift in Sources */,
 			);
